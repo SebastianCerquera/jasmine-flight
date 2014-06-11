@@ -16,7 +16,7 @@ module.exports = function (config) {
     files: [
       'bower_components/es5-shim/es5-shim.js',
       'bower_components/es5-shim/es5-sham.js',
-      'bower_components/jquery/jquery.js',
+      'bower_components/jquery/dist/jquery.js',
 
       'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
       'lib/jasmine-flight.js',
@@ -44,7 +44,7 @@ module.exports = function (config) {
     // start these browsers
     browsers: [
       'Chrome',
-      'Firefox'
+	    'Firefox'
     ],
 
     // Auto run tests on start (when browsers are captured) and exit

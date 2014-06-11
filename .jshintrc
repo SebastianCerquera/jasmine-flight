@@ -15,7 +15,7 @@
     "strict": true,
     "trailing": true,
     "smarttabs": true,
-    "white": true,
+    "white": false,
     "indent": 2,
     "predef": [
         "jasmine",
@@ -31,5 +31,22 @@
         "runs",
         "define",
         "requirejs"
-    ]
+    ],
+    "globals": {
+			"define": false,
+			"describeMixin": false,
+			"beforeEach": false,
+			"setupComponent": false,
+			"it": false,
+			"expect": false,
+			"spyOn": false,
+			"jasmine": false,
+			"spyOnEvent": false,
+			"describe": false,
+			"readFixture": false,
+			"$": false,
+			"jQuery": false,
+			"afterEach": false,
+			"waitsFor": false
+	}
 }
